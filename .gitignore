@@ -1,7 +1,6 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 .saves
-git rm -r .saves/
 # IPython
 profile_default/
 ipython_config.py
