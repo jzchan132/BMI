@@ -203,15 +203,15 @@ class LanguageModel(BaseModel):
     # step
     #####
 
-    def forward(self, input_ids, attention_mask, embed=False):
+    def forward(self, input, attention_mask, embed=False):
         if embed:
             outputs = self.classifier(
-                inputs_embeds = input_ids,
+                inputs_embeds = input,
                 attention_mask=attention_mask
             )
         else:
             outputs = self.classifier(
-                input_ids=input_ids,
+                input_ids=input,
                 attention_mask=attention_mask
             )
         logits = outputs.logits
