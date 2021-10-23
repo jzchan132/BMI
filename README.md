@@ -1,4 +1,4 @@
-# Exploring Input Atributions
+# Exploring BERT Model Interpretations
 
 With the increase in model complexity and the resulting lack of transparency, model interpretability methods have become increasingly important.
 
