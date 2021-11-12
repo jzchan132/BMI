@@ -2,16 +2,11 @@
 */.ipynb_checkpoints/*
 .saves
 
-<<<<<<< HEAD
-=======
-Semeval Pt 2.ipynb
+Models
 
->>>>>>> 0c75cf1d03188b054902589e603e7ac9eba63f6d
 # IPython
 profile_default/
 ipython_config.py
-
-Models
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
